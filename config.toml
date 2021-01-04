@@ -1,0 +1,4 @@
+baseURL = "https://bgottlob.com"
+languageCode = "en-us"
+title = "Brandon Gottlob"
+theme = "etch"
