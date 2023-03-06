@@ -13,7 +13,7 @@ theme = "etch"
     identifier = "resume"
     name = "resume"
     title = "resume"
-    url = "/bgottlob_resume.pdf"
+    url = "https://bgottlob-public.us-east-1.linodeobjects.com/bgottlob_resume.pdf"
     weight = "10"
 
   [[menu.main]]
