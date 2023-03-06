@@ -22,3 +22,10 @@ theme = "etch"
     title = "github"
     url = "https://github.com/bgottlob"
     weight = "20"
+
+  [[menu.main]]
+    identifier = "rss"
+    name = "rss"
+    title = "rss"
+    url = "/index.xml"
+    weight = "30"
