@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -e
+
+REGISTRY="registry.bgottlob.com"
+IMAGE="blog"
+TAG="latest"
+FULLNAME="${REGISTRY}/${IMAGE}:${TAG}"
+
+# Ensure theme submodule has been pulled
+git submodule update --init --recursive
+
+docker build . -t "${FULLNAME}"
+
+if [ "${1}" = "push" ]; then
+  docker push "${FULLNAME}"
+fi
